@@ -1,0 +1,8 @@
+
+<use name=boost>
+<use name=root>
+<use name=IOMC/EventVertexGenerators>
+<use name=SimDataFormats/HepMCProduct>
+<flags SEAL_PLUGIN_NAME="VtxSmearingTest">
+<library file=VtxTester.cc name=VtxSmearingTest>
+</library>
