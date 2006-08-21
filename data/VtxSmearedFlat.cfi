@@ -1,11 +1,14 @@
 
+   #
+   # Note : this module takes input in the usits of *cm* !!!
+   #
    module VtxSmeared = VertexGenerator
    {
       string type = "IOMC/EventVertexGenerators/FlatEventVertexGenerator"
-      double MinX = -0.015
-      double MaxX =  0.015
-      double MinY = -0.015
-      double MaxY =  0.015
-      double MinZ = -53.
-      double MaxZ =  53.
+      double MinX = -0.0015
+      double MaxX =  0.0015
+      double MinY = -0.0015
+      double MaxY =  0.0015
+      double MinZ = -5.3
+      double MaxZ =  5.3
    }
