@@ -2,9 +2,8 @@
    #
    # Note : this module takes input in the usits of *cm* !!!
    #
-   module VtxSmeared = VertexGenerator
+   module VtxSmeared = FlatEvtVtxGenerator
    {
-      string type = "IOMC/EventVertexGenerators/FlatEventVertexGenerator"
       double MinX = -0.0015
       double MaxX =  0.0015
       double MinY = -0.0015

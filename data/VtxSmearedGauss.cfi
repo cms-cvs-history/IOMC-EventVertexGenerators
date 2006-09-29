@@ -2,9 +2,8 @@
    #
    # this module takes inpuut in the units of *cm* !!!
    #
-   module VtxSmeared = VertexGenerator
+   module VtxSmeared = GaussEvtVtxGenerator
    {
-         string type = "IOMC/EventVertexGenerators/GaussianEventVertexGenerator"
          double MeanX = 0.
          double MeanY = 0.
          double MeanZ = 0.
