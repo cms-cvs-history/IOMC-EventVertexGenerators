@@ -1,0 +1,16 @@
+   #
+   # this module takes inpuut in the units of *cm* and *radian*!!!
+   #
+   module VtxSmeared = BeamProfileVtxGenerator
+   {
+         untracked double MinEta          =  0.5655
+         untracked double MaxEta          =  0.5655
+         untracked double MinPhi          =  0.1309
+         untracked double MaxPhi          =  0.1309
+         untracked double BeamPosition    = -408.50
+         untracked double BeamMeanX       = 0.
+         untracked double BeamMeanY       = 0.
+         untracked double BeamSigmaX      = 0.0001
+         untracked double BeamSigmaY      = 0.0001
+         untracked bool   GaussianProfile = true
+    }
