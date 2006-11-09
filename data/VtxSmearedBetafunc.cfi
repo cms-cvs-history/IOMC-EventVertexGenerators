@@ -1,0 +1,16 @@
+
+   #
+   # this module takes inpuut in the units of *cm* !!!
+   #
+   module VtxSmeared = BetafuncEvtVtxGenerator
+   {
+         double X0 =        0.0300
+         double Y0 =        0.0600
+         double Z0 =        0.
+	 double SigmaZ =    7.55
+	 double dxdz =      0.
+	 double dydz =      0.
+	 double BetaStar =  55.
+	 double Emmitance = 3.75e-8
+
+   }
