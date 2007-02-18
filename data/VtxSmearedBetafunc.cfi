@@ -11,6 +11,6 @@
 	 double dxdz =      0.
 	 double dydz =      0.
 	 double BetaStar =  55.
-	 double Emmitance = 3.75e-8
+	 double Emittance = 5.03e-8
 
    }
