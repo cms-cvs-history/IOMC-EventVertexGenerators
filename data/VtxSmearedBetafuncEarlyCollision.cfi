@@ -1,5 +1,7 @@
 
    #
+   #    EARLY COLLISION (pp 7+7 TeV)
+   #
    # this module takes inpuut in the units of *cm* !!!
    #
    # Values taken from LHC optics simulation V6.5:
@@ -9,13 +11,13 @@
 
    module VtxSmeared = BetafuncEvtVtxGenerator
    {
-         double X0 =        0.05
+         double X0 =        0.0322
          double Y0 =        0.
          double Z0 =        0.
 	 double SigmaZ =    7.55
 	 double dxdz =      0.
 	 double dydz =      0.
-	 double BetaStar =  55.
+	 double BetaStar =  200.
 	 double Emittance = 5.03e-8
 
    }
