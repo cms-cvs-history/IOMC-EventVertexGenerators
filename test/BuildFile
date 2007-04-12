@@ -3,6 +3,6 @@
 <use name=root>
 <use name=IOMC/EventVertexGenerators>
 <use name=SimDataFormats/HepMCProduct>
-<flags SEAL_PLUGIN_NAME="VtxSmearingTest">
+<flags EDM_PLUGIN=1>
 <library file=VtxTester.cc name=VtxSmearingTest>
 </library>
