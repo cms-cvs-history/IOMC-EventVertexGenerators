@@ -13,8 +13,8 @@
          double Y0 =        0.
          double Z0 =        0.
 	 double SigmaZ =    7.55
-	 double dxdz =      0.
-	 double dydz =      0.
+	 double Alpha =     0.
+	 double Phi =       0.
 	 double BetaStar =  55.
 	 double Emittance = 5.03e-8
 

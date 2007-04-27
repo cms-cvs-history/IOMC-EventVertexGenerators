@@ -6,4 +6,5 @@
 <use name=SimDataFormats/HepMCProduct>
 <flags EDM_PLUGIN=1>
 <library file=VtxTester.cc name=VtxSmearingTest>
+<library file=BoostTester.cc name=VtxSmearingBoostTest>
 </library>
