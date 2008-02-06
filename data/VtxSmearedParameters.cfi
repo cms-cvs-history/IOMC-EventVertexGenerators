@@ -1,0 +1,107 @@
+#
+# All units are cm and radians
+#
+
+# Gaussian smearing
+block GaussVtxSmearingParameters = 
+{
+    double MeanX = 0.
+    double MeanY = 0.
+    double MeanZ = 0.
+    double SigmaX = 0.0015
+    double SigmaY = 0.0015
+    double SigmaZ = 5.3
+}
+
+# Flat Smearing
+block FlatVtxSmearingParameters =
+{
+    double MinX = -0.0015
+    double MaxX =  0.0015
+    double MinY = -0.0015
+    double MaxY =  0.0015
+    double MinZ = -5.3
+    double MaxZ =  5.3
+}
+
+# Beta functions smearing (pp 7+7 TeV)
+#
+# Values taken from LHC optics simulation V6.5:
+# see http://proj-lhc-optics-web.web.cern.ch/proj-lhc-optics-web/V6.500/IR5.html
+# alpha = angle of the crossing plane 0 degrees means XZ plane
+# phi = half-crossing beam angle
+#
+
+block EarlyCollisionVtxSmearingParameters = 
+{
+    double X0 =        0.0322
+    double Y0 =        0.
+    double Z0 =        0.
+    double SigmaZ =    7.55
+    double Alpha =     0.
+    double Phi =       0.
+    double BetaStar =  200.
+    double Emittance = 5.03e-8
+}
+
+
+block NominalCollisionVtxSmearingParameters = 
+{
+    double X0 =        0.05
+    double Y0 =        0.
+    double Z0 =        0.
+    double SigmaZ =    7.55
+    double Alpha =     0.
+    double Phi =       142.0e-6
+    double BetaStar =  55.
+    double Emittance = 5.03e-8
+}
+
+block NominalCollision1VtxSmearingParameters =
+{
+    double X0 =        0.0500
+    double Y0 =        0.0250
+    double Z0 =        0.
+    double SigmaZ =    7.55
+    double Alpha =     0.
+    double Phi =       0.
+    double BetaStar =  55.
+    double Emittance = 5.03e-8
+}
+
+
+block NominalCollision2VtxSmearingParameters =
+{
+    double X0 =        0.0500
+    double Y0 =        0.0250
+    double Z0 =        0.
+    double SigmaZ =    7.55
+    double Alpha =     0.
+    double Phi =       142e-6
+    double BetaStar =  55.
+    double Emittance = 5.03e-8	
+}
+
+block NominalCollision3VtxSmearingParameters =
+{
+    double X0 =        0.1
+    double Y0 =        0.0250
+    double Z0 =        0.
+    double SigmaZ =    7.55
+    double Alpha =     0.
+    double Phi =       0.
+    double BetaStar =  55.
+    double Emittance = 5.03e-8
+   }
+
+block NominalCollision4VtxSmearingParameters =
+{
+    double X0 =        0.2
+    double Y0 =        0.0250
+    double Z0 =        0.
+    double SigmaZ =    7.55
+    double Alpha =     0.
+    double Phi =       0.
+    double BetaStar =  55.
+    double Emittance = 5.03e-8
+}
