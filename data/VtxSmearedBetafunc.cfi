@@ -1,23 +1,5 @@
-
-   #
-   # this module takes inpuut in the units of *cm* !!!
-   #
-   # Values taken from LHC optics simulation V6.5:
-   # see http://proj-lhc-optics-web.web.cern.ch/proj-lhc-optics-web/V6.500/IR5.html
-   # We are asumming zero crossing angles
-   #
-
-   module VtxSmeared = BetafuncEvtVtxGenerator
-   {
-         double X0 =        0.05
-         double Y0 =        0.
-         double Z0 =        0.
-	 double SigmaZ =    7.55
-	 # angle of the crossing plane 0 degrees means XZ plane
-	 double Alpha =     0.
-	 # half-crossing beam angle
-	 double Phi =       142.0e-6
-	 double BetaStar =  55.
-	 double Emittance = 5.03e-8
-
-   }
+include "IOMC/EventVertexGenerators/data/VtxSmearedParameters.cfi" 
+module VtxSmeared = BetafuncEvtVtxGenerator
+{
+    using NominalCollisionVtxSmearingParameters
+}
