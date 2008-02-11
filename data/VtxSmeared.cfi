@@ -1,7 +1,0 @@
-
-   #
-   # define default Vertex Generator Smearing
-   #
-   
-   include "IOMC/EventVertexGenerators/data/VtxSmearedBetafunc.cfi"
-
