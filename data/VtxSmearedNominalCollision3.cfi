@@ -1,5 +1,5 @@
 include "IOMC/EventVertexGenerators/data/VtxSmearedParameters.cfi" 
 module VtxSmeared = BetafuncEvtVtxGenerator
 {
-    using NominalCollison3VtxSmearingParameters
+    using NominalCollision3VtxSmearingParameters
 }
