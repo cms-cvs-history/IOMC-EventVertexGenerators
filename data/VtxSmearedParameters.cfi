@@ -41,6 +41,20 @@ block FlatVtxSmearingParameters =
 # length variables are in cm
 #
 
+# 10 TeV collisions, beam size = 46 microns
+block Early10TeVCollisionVtxSmearingParameters = 
+{
+    double X0 =        0.0322
+    double Y0 =        0.
+    double Z0 =        0.
+    double SigmaZ =    3.8
+    double Alpha =     0.
+    double Phi =       0.
+    double BetaStar =  300.
+    double Emittance = 7.03e-8
+    double TimeOffset = 0.
+}
+
 block EarlyCollisionVtxSmearingParameters = 
 {
     double X0 =        0.0322
