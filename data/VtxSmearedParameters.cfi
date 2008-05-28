@@ -7,6 +7,12 @@
 # TimeOffset in nanoseconds
 # spacial displacement in cm
 
+# common parameters
+block VtxSmearedCommon = 
+{
+    InputTag src = "source"
+}
+
 # Gaussian smearing
 block GaussVtxSmearingParameters = 
 {

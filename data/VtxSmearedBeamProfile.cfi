@@ -1,8 +1,11 @@
+   include "IOMC/EventVertexGenerators/data/VtxSmearedParameters.cfi"
+
    #
    # this module takes inpuut in the units of *cm* and *radian*!!!
    #
    module VtxSmeared = BeamProfileVtxGenerator
    {
+         using VtxSmearedCommon
          untracked double BeamMeanX       = 0.
          untracked double BeamMeanY       = 0.
          untracked double BeamSigmaX      = 0.0001
