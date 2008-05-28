@@ -10,7 +10,7 @@
 # common parameters
 block VtxSmearedCommon = 
 {
-    InputTag src = "source"
+    InputTag src = source
 }
 
 # Gaussian smearing
