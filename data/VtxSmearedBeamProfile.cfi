@@ -6,6 +6,7 @@
    module VtxSmeared = BeamProfileVtxGenerator
    {
          using VtxSmearedCommon
+         double           TimeOffset      = 0.
          untracked double BeamMeanX       = 0.
          untracked double BeamMeanY       = 0.
          untracked double BeamSigmaX      = 0.0001
