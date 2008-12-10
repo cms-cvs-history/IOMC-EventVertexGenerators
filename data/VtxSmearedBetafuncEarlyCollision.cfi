@@ -1,6 +1,0 @@
-include "IOMC/EventVertexGenerators/data/VtxSmearedParameters.cfi" 
-module VtxSmeared = BetafuncEvtVtxGenerator
-{
-    using VtxSmearedCommon
-    using EarlyCollisionVtxSmearingParameters
-}
