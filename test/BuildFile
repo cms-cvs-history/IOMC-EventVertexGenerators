@@ -4,7 +4,7 @@
 <use name=FWCore/Framework>
 <use name=boost>
 <use name=root>
-<use name=SimDataFormats/HepMCProduct>
+<use name=SimDataFormats/GeneratorProducts>
 # <flags EDM_PLUGIN=1>
 <library file=VtxTester.cc name=VtxSmearingTest>
 <flags EDM_PLUGIN=1>
